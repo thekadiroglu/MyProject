@@ -1,0 +1,8 @@
+C:\Users\rzaem\source\repos\NewEorld\NewEorld\bin\Debug\NewEorld.exe.config
+C:\Users\rzaem\source\repos\NewEorld\NewEorld\bin\Debug\NewEorld.exe
+C:\Users\rzaem\source\repos\NewEorld\NewEorld\bin\Debug\NewEorld.pdb
+C:\Users\rzaem\source\repos\NewEorld\NewEorld\obj\Debug\NewEorld.csproj.AssemblyReference.cache
+C:\Users\rzaem\source\repos\NewEorld\NewEorld\obj\Debug\NewEorld.csproj.SuggestedBindingRedirects.cache
+C:\Users\rzaem\source\repos\NewEorld\NewEorld\obj\Debug\NewEorld.csproj.CoreCompileInputs.cache
+C:\Users\rzaem\source\repos\NewEorld\NewEorld\obj\Debug\NewEorld.exe
+C:\Users\rzaem\source\repos\NewEorld\NewEorld\obj\Debug\NewEorld.pdb
