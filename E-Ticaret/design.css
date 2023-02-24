@@ -84,7 +84,7 @@ html {
 }
 
 #custom-search-input input {
-  border: 0;
+  border: 30px;
   box-shadow: none;
 }
 
@@ -107,7 +107,7 @@ html {
 #custom-search-input .glyphicon-search {
   font-size: 23px;
 }
-.btn-dark-moon {
+.btn1-dark-moon {
   background: #141e30; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
