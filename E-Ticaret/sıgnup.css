@@ -1,4 +1,3 @@
-
 .order-1 {
   order: 1 !important;
 }
@@ -8,16 +7,18 @@
 .d-flex {
   display: flex !important;
 }
- 
+
 .row > * {
   flex-shrink: 0;
   width: 100%;
   max-width: 100%;
-  padding-right: calc(var(--mdb-gutter-x)*0.5);
-  padding-left: calc(var(--mdb-gutter-x)*0.5);
+  padding-right: calc(var(--mdb-gutter-x) * 0.5);
+  padding-left: calc(var(--mdb-gutter-x) * 0.5);
   margin-top: var(--mdb-gutter-y);
 }
-*, ::after, ::before {
+*,
+::after,
+::before {
   box-sizing: border-box;
 }
 .row {
@@ -29,7 +30,7 @@
 }
 .text-black {
   --mdb-text-opacity: 1;
-  color: rgba(var(--mdb-black-rgb),var(--mdb-text-opacity)) !important;
+  color: rgba(var(--mdb-black-rgb), var(--mdb-text-opacity)) !important;
 }
 .card {
   --mdb-card-spacer-y: 1.5rem;
@@ -38,11 +39,12 @@
   --mdb-card-border-width: 1px;
   --mdb-card-border-color: var(--mdb-border-color-translucent);
   --mdb-card-border-radius: 0.5rem;
-  --mdb-card-box-shadow: 0 2px 15px -3px rgba(0,0,0,0.07),0 10px 20px -2px rgba(0,0,0,0.04);
+  --mdb-card-box-shadow: 0 2px 15px -3px rgba(0, 0, 0, 0.07),
+    0 10px 20px -2px rgba(0, 0, 0, 0.04);
   --mdb-card-inner-border-radius: calc(0.5rem - 1px);
   --mdb-card-cap-padding-y: 0.75rem;
   --mdb-card-cap-padding-x: 1.5rem;
-  --mdb-card-cap-bg: hsla(0,0%,100%,0);
+  --mdb-card-cap-bg: hsla(0, 0%, 100%, 0);
   --mdb-card-bg: #fff;
   --mdb-card-img-overlay-padding: 1.5rem;
   --mdb-card-group-margin: 0.75rem;
@@ -51,7 +53,13 @@
 .bg-white {
   --mdb-bg-opacity: 1;
 }
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
   --mdb-gutter-x: 1.5rem;
   --mdb-gutter-y: 0;
 }
@@ -63,10 +71,10 @@ body {
   color: var(--mdb-body-color);
   text-align: var(--mdb-body-text-align);
   -webkit-text-size-adjust: 100%;
-  background-image:url(/img/woman-gea83a0cd8_1920.jpg);
+  background-image: url(/img/woman-gea83a0cd8_1920.jpg);
 }
 :root {
-  --mdb-font-roboto: "Roboto",sans-serif;
+  --mdb-font-roboto: "Roboto", sans-serif;
   --mdb-bg-opacity: 1;
 }
 :root {
@@ -102,21 +110,28 @@ body {
   --mdb-info: #54b4d3;
   --mdb-light: #fbfbfb;
   --mdb-dark: #332d2d;
-  --mdb-primary-rgb: 59,113,202;
-  --mdb-secondary-rgb: 159,166,178;
-  --mdb-success-rgb: 20,164,77;
-  --mdb-danger-rgb: 220,76,100;
-  --mdb-warning-rgb: 228,161,27;
-  --mdb-info-rgb: 84,180,211;
-  --mdb-light-rgb: 251,251,251;
-  --mdb-dark-rgb: 51,45,45;
-  --mdb-white-rgb: 255,255,255;
-  --mdb-black-rgb: 0,0,0;
-  --mdb-body-color-rgb: 79,79,79;
-  --mdb-body-bg-rgb: 255,255,255;
-  --mdb-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-  --mdb-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
-  --mdb-gradient: linear-gradient(180deg,hsla(0,0%,100%,0.15),hsla(0,0%,100%,0));
+  --mdb-primary-rgb: 59, 113, 202;
+  --mdb-secondary-rgb: 159, 166, 178;
+  --mdb-success-rgb: 20, 164, 77;
+  --mdb-danger-rgb: 220, 76, 100;
+  --mdb-warning-rgb: 228, 161, 27;
+  --mdb-info-rgb: 84, 180, 211;
+  --mdb-light-rgb: 251, 251, 251;
+  --mdb-dark-rgb: 51, 45, 45;
+  --mdb-white-rgb: 255, 255, 255;
+  --mdb-black-rgb: 0, 0, 0;
+  --mdb-body-color-rgb: 79, 79, 79;
+  --mdb-body-bg-rgb: 255, 255, 255;
+  --mdb-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --mdb-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  --mdb-gradient: linear-gradient(
+    180deg,
+    hsla(0, 0%, 100%, 0.15),
+    hsla(0, 0%, 100%, 0)
+  );
   --mdb-body-font-family: var(--mdb-font-roboto);
   --mdb-body-font-size: 1rem;
   --mdb-body-font-weight: 400;
@@ -126,7 +141,7 @@ body {
   --mdb-border-width: 1px;
   --mdb-border-style: solid;
   --mdb-border-color: #e0e0e0;
-  --mdb-border-color-translucent: rgba(0,0,0,0.175);
+  --mdb-border-color-translucent: rgba(0, 0, 0, 0.175);
   --mdb-border-radius: 0.25rem;
   --mdb-border-radius-sm: 0.25rem;
   --mdb-border-radius-lg: 0.5rem;
@@ -138,21 +153,22 @@ body {
   --mdb-code-color: #e91e63;
   --mdb-highlight-bg: #fff9c4;
 }
-:host, :root {
+:host,
+:root {
   --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
 }
-:host, :root {
+:host,
+:root {
   --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
 }
-:host, :root {
+:host,
+:root {
   --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
 }
 margin
-border
-padding
-
-
-static
+  border
+  padding
+  static
   box-sizing
   border-box
   display
@@ -160,8 +176,8 @@ static
   float
   none
   line-height
- 
   position
   static
   z-index
-  auto
+  auto {
+}
