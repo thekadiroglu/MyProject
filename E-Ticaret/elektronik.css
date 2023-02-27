@@ -335,3 +335,7 @@ svg {
   border: 1px solid #ffcaa6;
   background-color: #ffcaa6;
 }
+.row {
+  display: flex;
+  justify-content: space-between;
+}
