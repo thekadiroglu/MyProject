@@ -229,10 +229,11 @@ body {
   position: relative;
   overflow: visible;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  flex-wrap: wrap;
 }
 
 .card-img {
-  background-color: #ffcaa6;
+  background-color: #fff;
   height: 40%;
   width: 100%;
   border-radius: 0.5rem;
@@ -364,4 +365,12 @@ svg {
     #f09819 51%,
     #ff512f 100%
   );
+}
+.yuvarlak {
+  border-radius: 9px 9px 9px 9px;
+}
+.row {
+  margin: 45px;
+  flex-wrap: wrap;
+  gap: 50px;
 }
