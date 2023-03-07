@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+.header {
+  width: 100%;
+  height: 80px;
+  display: block;
+  background-color: #fff;
+}
+.inner_header {
+  width: 1000px;
+  height: 100%;
+  display: block;
+  color: #fff;
+  margin: 0 auto;
+}
+.logo_container {
+  height: 100%;
+  display: table;
+  float: left;
+}
+.logo_container h1 {
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: "Tilt Neon", cursive;
+  font-weight: 200;
+  color: black;
+}
+.logo_container h1 span {
+  font-weight: 800;
+}
+.navigation {
+  float: right;
+  height: 100%;
+  font-family: OpenSans;
+}
+.navigation a {
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 20px;
+  text-decoration: none;
+}
+.navigation a li {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  color: black;
+  font-family: OpenSans;
+}
+.logo {
+  width: 69px;
+  height: 24px;
+  margin: 25px 6px 4px 80px;
+  object-fit: contain;
+}
+.info {
+  background-color: #fff;
+  width: 15px;
+}
+.resim-alani {
+  position: relative;
+  width: auto;
+  height: auto;
+}
+
+.resim-alani img {
+  width: 1000px;
+  height: auto;
+}
+
+.resim-alani h2,
+.resim-alani p,
+.resim-alani button {
+  position: absolute;
+  bottom: 140px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 80px;
+  color: #fff;
+}
+
+.resim-alani h2 {
+  margin: 180px 300px 100px 80px;
+  font-size: 60px;
+}
+
+.resim-alani button {
+  background-color: #fd7e14;
+  color: white;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  line-height: 1.39;
+  font-family: Montserrat;
+  font-size: 15px;
+  flex-grow: 0;
+  margin: auto auto 50px 430px;
+}
+.alt {
+  margin-left: 180px;
+}
+.icons {
+  width: auto;
+  height: auto;
+  color: black;
+  display: flex;
+  padding: 15px;
+  margin: auto 100px;
+  margin-top: 35px;
+}
+.icons svg {
+  margin-right: 305px;
+}
