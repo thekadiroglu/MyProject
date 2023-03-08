@@ -4,22 +4,37 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Libre+Baskerville&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link
+      style="height: auto; width: auto"
+      rel="shortcut icon"
+      type="image/png"
+      href="./assets/img/logo.png"
+    />
+
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>firstone Tur. Ltd.</title>
   </head>
   <body>
-    <div class="iletisim-form">
-      <form>
-        <label>İsim</label>
-        <input name="isim" placeholder="Adınız" />
-
-        <label>E-Posta</label>
-        <input name="eposta" type="email" placeholder="Mail Adresiniz" />
-
-        <label>İleti</label>
-        <textarea name="mesaj" placeholder="Mesajınız"></textarea>
-
-        <input id="kaydet" name="kaydet" type="submit" value="Kaydet" />
-      </form>
-    </div>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" required="">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required="">
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required=""></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
   </body>
 </html>
