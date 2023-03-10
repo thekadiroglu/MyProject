@@ -162,10 +162,10 @@
   margin-bottom: 400px;
 }
 
-.table th.gray {
+th.gray {
   background-color: darkgray;
 }
-.table td.gray {
+td.gray {
   background-color: darkgray;
 }
 .footer {
