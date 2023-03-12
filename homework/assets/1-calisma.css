@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.baslik {
+  text-align: center;
+  margin: 80px auto 0;
+  font-family: "Arial Bold", sans-serif;
+  font-size: 22px;
+}
+p {
+  font-size: 15px;
+  margin-top: 15px;
+  color: #565e71;
+  padding: 1px;
+}
+.photo {
+  width: 800px;
+  height: 350px;
+  margin: 90px 260px;
+}
