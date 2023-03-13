@@ -8,16 +8,16 @@
   text-align: center;
   margin: 80px auto 0;
   font-family: "Arial Bold", sans-serif;
-  font-size: 22px;
+  font-size: 30px;
 }
 p {
-  font-size: 15px;
-  margin-top: 15px;
+  font-size: 25px;
+  margin-top: 25px;
   color: #565e71;
   padding: 1px;
+  font-family: "Arial Bold", sans-serif;
 }
 .photo {
-  width: 800px;
-  height: 350px;
-  margin: 90px 260px;
+  margin-left: 440px;
+  margin-top: 160px;
 }
