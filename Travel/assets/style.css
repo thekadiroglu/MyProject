@@ -10,12 +10,7 @@
   display: block;
   background-color: #fff;
 }
-.inner_header {
-  width: 1000px;
-  height: 100%;
-  display: block;
-  margin: 0 auto;
-}
+
 .logo_container {
   height: 100%;
   display: table;
@@ -36,12 +31,12 @@
 .navigation {
   float: right;
   height: 100%;
+  margin-right: 250px;
 }
 .navigation a {
   height: 100%;
   display: table;
   float: left;
-  padding: 0px 20px;
 }
 .navigation a:last-child {
   padding-right: 0;
@@ -52,11 +47,11 @@
   padding: 15px;
   height: 19px;
   color: #000;
-  font-size: 16px;
+  font-size: 20px;
   font-family: "Libre Baskerville", serif;
   margin-top: 15px;
   transition: 0.5s;
-  width: 170px;
+  width: 200px;
   text-align: center;
 }
 .navigation a li:hover {
@@ -78,7 +73,7 @@
 }
 .grid-item {
   padding: 0px;
-
+  height: 250px;
   width: 100%;
 }
 
@@ -86,14 +81,14 @@
   width: 500px;
   float: left;
   padding: 0 50px 10px 0;
-  margin-top: 55px;
 }
 
 .grid-item p {
-  font-size: 13px;
+  font-size: 15px;
   text-align: center;
-  margin-top: 20px;
-  font-family: "Libre Baskerville", serif;
+
+  margin-bottom: 55px;
+  font-family: "Arial Bold", sans-serif;
 }
 .grid-item h1 {
   text-align: center;
@@ -104,15 +99,17 @@
   float: right;
   padding: 0 50px 10px 0;
   margin-top: 55px;
+  margin-bottom: 55px;
 }
 .grid-item-1 {
-  margin-top: 45px;
+  height: 360px;
+  font-size: 15px;
 }
 .grid-item-1 p {
-  margin-top: 25px;
   text-align: center;
-  font-family: "Libre Baskerville", serif;
-  font-size: 13px;
+  font-family: "Arial Bold", sans-serif;
+  font-size: 15px;
+  height: 300px;
 }
 .grid-item-1 h1 {
   text-align: center;
@@ -124,69 +121,8 @@
 .yuvarlak {
   border-radius: 9px 9px 9px 150px;
 }
-/*contact form*/
-.contact-form {
-  background-color: #f2f2f2;
-  padding: 20px;
-  border-radius: 10px;
-}
-
-.contact-form label {
-  color: black;
-}
-
-.contact-form .heading {
-  font-size: 24px;
-  color: black;
-  margin-bottom: 12px;
-  font-weight: bold;
-  display: block;
-}
-
-.contact-form form {
-  display: flex;
-  flex-direction: column;
-}
-
-.contact-form label {
-  margin-bottom: 10px;
-}
-
-textarea {
-  resize: none;
-  height: 80px;
-  width: 200px;
-}
-
-.contact-form input,
-.contact-form textarea {
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  margin-bottom: 20px;
-}
-
-.contact-form input:focus,
-.contact-form textarea:focus {
-  outline: none;
-  box-shadow: 0 0 5px #ff6384;
-  transform: scale(1.05);
-  transition: transform 0.3s ease-in-out;
-}
-
-.contact-form button[type="submit"] {
-  background-color: #ff6384;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.contact-form button[type="submit"]:hover {
-  transform: scale(1.1);
-  transition: transform 0.3s ease-in-out;
+.we-who {
+  font-size: 25px;
 }
 .footer {
   background-color: black;
@@ -240,64 +176,70 @@ textarea {
   margin-top: 15px;
   width: 250px;
   height: 150px;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  border-radius: 5px 5px 5px 5px;
+  border-radius: 15px;
+  position: relative;
+  transition: transform 0.3s ease;
 }
 .flags:hover {
-  -webkit-filter: grayscale(0%);
-  filter: grayscale(0%);
+  transform: translateY(-5px);
 }
 .baslik {
-  margin-top: 55px;
   margin-left: 500px;
-  font-size: 20px;
+  margin-bottom: 35px;
+  font-size: 40px;
   font-family: "Tilt Warp", cursive;
 }
 .container {
   width: auto;
-  margin: 35px 0px 65px 65px;
+  margin: 35px 0px 65px 70px;
+  padding: 25px;
 }
 .card {
   width: 305px;
+  margin-right: 25px;
   background-color: #fff;
-  height: 450px;
+  height: 480px;
   border-radius: 15px 15px 15px 15px;
-  border: 1px solid #000;
+  border: 1px solid #dddddd;
   transition: 0.5s;
   font-size: 10px;
   display: inline-block;
 }
 .card:hover {
   background-color: darkgrey;
-  width: 310px;
 }
 h3 {
   text-align: center;
   margin-top: 25px;
   font-size: 25px;
+  font-family: "Arial Bold", sans-serif;
+  color: #0a2647;
 }
 .info {
   color: #000;
   margin-top: 15px;
   text-align: center;
   font-size: 13px;
-  height: 170px;
+  height: 200px;
+  font-family: "Arial Bold", sans-serif;
 }
 Button {
-  background-color: #000;
+  background-color: #171717;
   width: auto;
   height: 500px;
   font-size: 20px;
   text-align: center;
   margin-left: 150px;
-
-  font-family: "Libre Baskerville", serif;
+  font-family: "Arial Bold", sans-serif;
   text-decoration: none;
   border-radius: 15px 15px 15px 15px;
+  box-shadow: 0 0 0 0 black;
+  transition: all 0.3s ease-in-out;
 }
 button:hover {
-  background-color: #fff;
+  background-color: #da0037;
+  border-color: #f2f2f2;
+  box-shadow: 2px 5px 0 0 black;
 }
 a button {
   color: #fff;
@@ -305,7 +247,106 @@ a button {
   height: 30px;
   width: 150px;
   margin-top: 5px;
+  font-family: "Arial Bold", sans-serif;
 }
-a button:hover {
-  color: #000;
+hr {
+  border-color: #dddddd;
+}
+.discover {
+  background-color: #171717;
+  float: right;
+  width: 300px;
+}
+/*contact form*/
+.form-box {
+  max-width: 300px;
+  background: #f1f7fe;
+  overflow: hidden;
+  border-radius: 16px;
+  color: #010101;
+  margin: 0 auto;
+}
+
+.form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 24px 24px;
+  gap: 16px;
+  text-align: center;
+}
+
+/*Form text*/
+.title {
+  font-weight: bold;
+  font-size: 35px;
+  font-family: "Arial Bold", sans-serif;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #666;
+}
+
+/*Inputs box*/
+.form-container {
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #fff;
+  margin: 1rem 0 0.5rem;
+  width: 100%;
+}
+
+.input {
+  background: none;
+  border: 0;
+  outline: 0;
+  height: 40px;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  font-size: 0.9rem;
+  padding: 8px 15px;
+}
+
+.form-section {
+  padding: 16px;
+  font-size: 0.85rem;
+  background-color: #e0ecfb;
+  box-shadow: rgb(0 0 0 / 8%) 0 -1px;
+}
+
+.form-section a {
+  font-weight: bold;
+  color: #0066ff;
+  transition: color 0.3s ease;
+}
+
+.form-section a:hover {
+  color: #005ce6;
+  text-decoration: underline;
+}
+
+/*Button*/
+.form button {
+  background-color: #0066ff;
+  color: #fff;
+  border: 0;
+  border-radius: 24px;
+  padding: 10px 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #005ce6;
+}
+.sign {
+  height: 35px;
+  box-shadow: 0 0 0 0 black;
+  transition: all 0.3s ease-in-out;
+}
+.sign:hover {
+  box-shadow: 2px 5px 0 0 #0a2647;
 }
