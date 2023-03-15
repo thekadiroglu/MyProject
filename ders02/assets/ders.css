@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  color: #000;
+  list-style: none;
+}
+
+.nav a {
+  color: #000;
+  text-decoration: none;
+}
+
+.nav ul {
+  display: none;
+  list-style: none;
+}
+
+.secili > ul {
+  display: block;
+}
+.nav button {
+  background-color: #fff;
+  width: 300px;
+  height: 45px;
+  background-color: darkblue;
+  border: none;
+  font-size: 25px;
+  float: left;
+}
+.nav button:hover {
+  background-image: linear-gradient(180deg, red, yellow);
+
+  padding-left: 50px;
+}
+.nav button:focus {
+  background-color: #000;
+  color: #fff;
+}
