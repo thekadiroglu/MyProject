@@ -102,6 +102,7 @@
   margin-bottom: 55px;
 }
 .grid-item-1 {
+  margin-top: 170px;
   height: 360px;
   font-size: 15px;
 }
@@ -121,6 +122,10 @@
 .yuvarlak {
   border-radius: 9px 9px 9px 150px;
 }
+.yuvarlak-3 {
+  border-radius: 55px 0px 0px 55px;
+  margin-top: 85px;
+}
 .we-who {
   font-size: 25px;
 }
@@ -131,6 +136,7 @@
   padding-top: 40px;
   text-align: center;
   color: #ffff;
+  margin-top: 150px;
 }
 .footer-content {
   display: flex;
@@ -184,7 +190,7 @@
   transform: translateY(-5px);
 }
 .baslik {
-  margin-left: 500px;
+  text-align: center;
   margin-bottom: 35px;
   font-size: 40px;
   font-family: "Tilt Warp", cursive;
@@ -237,7 +243,7 @@ Button {
   transition: all 0.3s ease-in-out;
 }
 button:hover {
-  background-color: #da0037;
+  background-color: #00c2cb;
   border-color: #f2f2f2;
   box-shadow: 2px 5px 0 0 black;
 }
@@ -252,7 +258,8 @@ a button {
 hr {
   border-color: #dddddd;
 }
-.discover {
+
+.discover-button {
   background-color: #171717;
   float: right;
   width: 300px;
@@ -307,7 +314,16 @@ hr {
   font-size: 0.9rem;
   padding: 8px 15px;
 }
-
+textarea {
+  background: none;
+  border: 0;
+  outline: 0;
+  height: 40px;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  font-size: 0.9rem;
+  padding: 8px 15px;
+}
 .form-section {
   padding: 16px;
   font-size: 0.85rem;
@@ -349,4 +365,45 @@ hr {
 }
 .sign:hover {
   box-shadow: 2px 5px 0 0 #0a2647;
+}
+/*Ülkelerin detay saufası*/
+.country-detail img {
+  margin-left: 530px;
+  margin-bottom: 50px;
+}
+.baslik-1 {
+  text-align: center;
+  font-family: "Arial Bold", sans-serif;
+  margin-top: 10px;
+
+  font-size: 25px;
+}
+.card-1 {
+  width: 305px;
+  margin-right: 30px;
+  margin-top: 25px;
+  background-color: #fff;
+  height: 390px;
+  border-radius: 15px 15px 15px 15px;
+  border: 1px solid #dddddd;
+  transition: 0.5s;
+  font-size: 10px;
+  display: inline-block;
+}
+.city {
+  margin-left: 10px;
+  margin-top: 25px;
+  width: 280px;
+  height: 160px;
+  border-radius: 15px;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+.city:hover {
+  transform: translateY(-5px);
+}
+.card-1 p {
+  font-family: "Arial Bold", sans-serif;
+  font-size: 15px;
+  text-align: center;
 }
