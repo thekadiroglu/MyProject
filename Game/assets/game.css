@@ -5,6 +5,7 @@
   text-decoration: none;
   background-color: #121212;
 }
+/*header*/
 .header {
   width: 100%;
   height: 50px;
@@ -60,7 +61,7 @@
   background-color: #13005a;
   color: #fff;
 }
-
+/*dropdawn menu*/
 ul li ul.dropdawn li {
   display: block;
   height: 50px;
