@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/game.css" />
+
+    <title>Firstone - Anasayfa</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo_container"></div>
+      <ul class="navigation">
+        <a href="./index.html"><li>Anasayfa</li></a>
+        <a href="#"
+          ><li>
+            Mobil Oyunlar
+            <i class="fa-solid fa-chevron-down"></i>
+            <ul class="dropdawn">
+              <hr />
+              <li>Top 10</li>
+              <hr />
+              <li>Yeni Çıkanlar</li>
+              <hr />
+              <li>Ücretli En iyi</li>
+              <hr />
+              <li>Android'e Özel</li>
+              <hr />
+              <li>İphone'a Özel</li>
+            </ul>
+          </li></a
+        >
+        <a href="#"><li>PlayStation</li></a>
+        <a href="#"><li>Pc Oyunları</li></a>
+        <a href="#"><li>Üye Ol</li></a>
+      </ul>
+    </div>
+    <div
+      style="width: 100%; display: block; margin-left: auto; margin-right: auto"
+      class="slide-container"
+    >
+      <div class="mySlides fade">
+        <img src="./assets/img/callofduty.jpg" style="width: 500px" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="./assets/img/roma.jpg" style="width: 900px" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="./assets/img/lasvegas.jpg" style="width: 900px" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="./assets/img/dubai.jpg" style="width: 900px" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="./assets/img/istanbul.jpg" style="width: 900px" />
+      </div>
+    </div>
+    <script>
+      var slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+          slideIndex = 1;
+        }
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+      }
+    </script>
+  </body>
+</html>
