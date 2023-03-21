@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/game.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Deneme</title>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="grid-item-1">
+        <div class="header">
+          <div class="logo_container"></div>
+          <ul class="navigation">
+            <a href="./index.html"><li>Anasayfa</li></a>
+            <a href="#"
+              ><li>
+                Mobil Oyunlar
+                <i class="fa-solid fa-chevron-down"></i>
+                <ul class="dropdawn">
+                  <hr />
+                  <li>Top 10</li>
+                  <hr />
+                  <li>Yeni Çıkanlar</li>
+                  <hr />
+                  <li>Ücretli En iyi</li>
+                  <hr />
+                  <li>Android'e Özel</li>
+                  <hr />
+                  <li>İphone'a Özel</li>
+                </ul>
+              </li></a
+            >
+            <a href="#"><li>PlayStation</li></a>
+            <a href="#"><li>Pc Oyunları</li></a>
+            <a href="#"><li>Üye Ol</li></a>
+          </ul>
+        </div>
+      </div>
+      <div class="slide-container">
+        <div class="mySlides fade">
+          <img src="./assets/img/callofduty.jpg" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./assets/img/crysis.jpg" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./assets/img/csgo.jpg" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./assets/img/fifa.jpeg" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./assets/img/rdr2.jpg" />
+        </div>
+      </div>
+      <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {
+            slideIndex = 1;
+          }
+          slides[slideIndex - 1].style.display = "block";
+          setTimeout(showSlides, 4000); // Change image every 4 seconds
+        }
+      </script>
+      <div class="grid-item3">
+        <div class="slider-menu">
+          <ul>
+            <h5>Kategoriler<i class="fa-solid fa-gamepad"></i></h5>
+
+            <a href=""
+              ><li>Aksiyon <i class="fa-solid fa-person-rifle"></i></li
+            ></a>
+            <a href=""
+              ><li>Açık Dünya <i class="fa-solid fa-earth-americas"></i></li
+            ></a>
+            <a href=""
+              ><li>Strateji <i class="fa-solid fa-chess-king"></i></li
+            ></a>
+            <a href=""
+              ><li>Korku <i class="fa-solid fa-biohazard"></i></li
+            ></a>
+            <li>Editörün Seçimleri</li>
+
+            <h5>Türü</h5>
+            <a href=""
+              ><li>Tek Kişilik <i class="fa-solid fa-person"></i></li
+            ></a>
+            <a href=""
+              ><li>
+                Çift Kişilik <i class="fa-solid fa-person"></i
+                ><i class="fa-solid fa-person"></i></li
+            ></a>
+            <a href=""
+              ><li>
+                3 Kişilik <i class="fa-solid fa-person"></i
+                ><i class="fa-solid fa-person"></i
+                ><i class="fa-solid fa-person"></i></li
+            ></a>
+            <a href=""
+              ><li>Online<i class="fa-solid fa-globe"></i></li
+            ></a>
+          </ul>
+        </div>
+      </div>
+      <div class="alt-baslik">
+        <h1>HABERLER</h1>
+      </div>
+      <div class="grid-item4">
+        <div class="card">
+          <img src="./assets/img/valorant.png" alt="" />
+        </div>
+        <div class="yazi">
+          <h1>Sitemiz Açıldı</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Praesentium explicabo voluptates culpa ab sit, rem reprehenderit
+            voluptatibus cumque eius eum? Rerum explicabo in enim corrupti.
+            Doloremque blanditiis possimus amet omnis nostrum assumenda! Animi
+            commodi earum inventore non praesentium rerum doloremque, illum
+            voluptas recusandae labore quam, velit deserunt accusantium suscipit
+            exercitationem.<a href="">Devamını oku..</a>
+          </p>
+        </div>
+      </div>
+      <div class="grid-item4">
+        <div class="card">
+          <img src="./assets/img/valorant.png" alt="" />
+        </div>
+        <div class="yazi">
+          <h1>Sitemiz Açıldı</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Praesentium explicabo voluptates culpa ab sit, rem reprehenderit
+            voluptatibus cumque eius eum? Rerum explicabo in enim corrupti.
+            Doloremque blanditiis possimus amet omnis nostrum assumenda! Animi
+            commodi earum inventore non praesentium rerum doloremque, illum
+            voluptas recusandae labore quam, velit deserunt accusantium suscipit
+            exercitationem.<a href="">Devamını oku..</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="foot">
+      <footer class="footer">
+        <div class="footer-content">
+          <h1>Sosyal Medya</h1>
+          <p>
+            Aşağıdaki bağlantılardan sosyal medya hesaplarıma ulaşabilirsiniz.
+          </p>
+          <ul class="social-media">
+            <li>
+              <a target="_blank" href="https://www.instagram.com/the.kadiroglu/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a target="_blank" href="https://twitter.com/thekadiroglu"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.youtube.com/channel/UCNzRusUI9VfWdB_E44KI1vg"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/rıza-emirhan-kadiroğlu-1757aa254/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-bottom">
+          <p>copyright &copy; 2023 firstone Tur. Ltd. Designed by emirhan</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
