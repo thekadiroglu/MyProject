@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 672px;
+  background: #ffc9ba;
+}
+.nav {
+  display: flex;
+}
+
+.nav .logo {
+  margin-top: 30px;
+  margin-left: 165px;
+}
+.nav .icons {
+  margin-left: 860px;
+  margin-top: 30px;
+}
+.icons .img {
+  margin-right: 85px;
+}
+.menu {
+  margin-left: 165px;
+  margin-top: 103px;
+
+  display: flex;
+}
+.menu h1 {
+  font-family: Montserrat;
+}
+.menu p {
+  font-family: Open Sans;
+  margin-top: 16px;
+}
+.menu button {
+  border: none;
+  background: none;
+  font-family: Montserrat;
+  margin-top: 32px;
+}
+.menu2 {
+  margin-left: 150px;
+  margin-top: 50px;
+}
+/*sponsor kısmı*/
+.sponsor {
+  height: 191px;
+  display: flex;
+}
+.sponsor p {
+  height: 15px;
+}
+.sponsor img {
+  height: 27px;
+  width: 100px;
+  margin: 0 auto;
+  margin-left: 95px;
+  margin-top: 108px;
+}
+.gallery {
+  display: flex;
+  margin-top: 64px;
+}
+.large {
+  background-color: #e6f0ff;
+  margin-left: 265px;
+  margin-top: 24px;
+  margin-right: 24px;
+  height: 650px;
+  font-family: Montserrat;
+}
+.large img {
+  height: 534px;
+}
+.small {
+  background: #fafafb;
+  margin-top: 21px;
+}
+.small img {
+  height: 534px;
+}
+.large p {
+  font-family: Montserrat;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.small p {
+  font-family: Montserrat;
+  margin-left: 40px;
+  margin-top: 40px;
+}
