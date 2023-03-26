@@ -103,6 +103,7 @@
   font-family: "Montserrat", sans-serif;
   margin-top: 128px;
   font-weight: lighter;
+  position: relative;
 }
 .baslik hr {
   color: #eaeaea;
@@ -165,4 +166,78 @@
 }
 .gorsel {
   background-color: #e6f0ff;
+}
+.baslik2 {
+  width: 1110px;
+  height: 950px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 128px;
+  font-weight: lighter;
+  position: relative;
+}
+.baslik2 hr {
+  color: #eaeaea;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+.gallery4 .first {
+  margin-right: 19px;
+}
+.write {
+  position: absolute;
+  bottom: 480px;
+  left: 15px;
+  width: 183px;
+  height: 92px;
+  border-radius: 6px;
+  padding: 16px;
+  font-size: 20px;
+  background-color: #fff;
+}
+.write2 {
+  position: absolute;
+  bottom: 480px;
+  left: 580px;
+  width: 192px;
+  height: 62px;
+  border-radius: 6px;
+  font-size: 20px;
+  background-color: #fff;
+}
+.write2 h4 {
+  margin-top: 16px;
+  margin-left: 16px;
+}
+.small2 {
+  margin-top: 24px;
+  margin-right: 19px;
+}
+.write3 {
+  position: absolute;
+  bottom: 35px;
+  left: 15px;
+  width: 192px;
+  height: 62px;
+  border-radius: 6px;
+  font-size: 20px;
+  background-color: #fff;
+}
+.write3 h4 {
+  margin-top: 16px;
+  margin-left: 16px;
+}
+.write4 {
+  position: absolute;
+  bottom: 35px;
+  left: 490px;
+  width: 192px;
+  height: 62px;
+  border-radius: 6px;
+  font-size: 20px;
+  background-color: #fff;
+}
+.write4 h4 {
+  margin-top: 16px;
+  margin-left: 16px;
 }
