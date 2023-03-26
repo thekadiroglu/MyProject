@@ -92,3 +92,77 @@
   margin-left: 40px;
   margin-top: 40px;
 }
+.gallery2 {
+  width: 100%;
+  background-color: #fff;
+}
+.baslik {
+  width: 1110px;
+  height: 540px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 128px;
+  font-weight: lighter;
+}
+.baslik hr {
+  color: #eaeaea;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+.products {
+  display: flex;
+}
+.products img {
+  margin-right: 80px;
+}
+.detail p {
+  color: #807e7e;
+  font-family: Open Sans;
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+.detail h3 {
+  color: #212121;
+  font-family: Open Sans;
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+.gallery3 {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+}
+.one-cikan {
+  width: 1110px;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+}
+.yazi {
+  background-color: #fafafb;
+  width: 700px;
+}
+.yazi h1 {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 127px;
+  margin-left: 97px;
+}
+.yazi p {
+  font-family: Open Sans;
+  margin-left: 97px;
+  margin-top: 16px;
+}
+.yazi button {
+  border: none;
+  background: none;
+  font-family: Montserrat;
+  margin-top: 32px;
+  margin-left: 97px;
+}
+.gorsel img {
+  width: 620px;
+}
+.gorsel {
+  background-color: #e6f0ff;
+}
