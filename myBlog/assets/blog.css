@@ -79,7 +79,7 @@ header {
 }
 #menu-icon {
   font-size: 35px;
-  color: #000;
+  color: #fff;
   cursor: pointer;
   z-index: 1;
   display: none;
@@ -101,7 +101,7 @@ header {
   .navbar {
     position: absolute;
     top: 100%;
-    right: 2%;
+    right: -100%;
     width: 270px;
     height: 29vh;
     background-color: #000;
@@ -125,4 +125,67 @@ header {
   .navbar a.active {
     color: #fff;
   }
+  .navbar.open {
+    right: 2%;
+  }
+}
+.table {
+  border: solid black;
+  width: 800px;
+  margin: auto;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+th.gray {
+  background-color: darkgray;
+}
+td.gray {
+  background-color: darkgray;
+}
+.footer {
+  background-color: black;
+  height: auto;
+  width: 100%;
+  padding-top: 40px;
+  text-align: center;
+  color: #ffff;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h1 {
+  font-size: 50px;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 15px;
+  margin-top: 25px;
+  display: flex;
+}
+.social-media {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.social-media li {
+  margin: 40px 10px;
+}
+.social-media a {
+  text-decoration: none;
+  color: #ffff;
+}
+.social-media a i {
+  font-size: 50px;
 }
