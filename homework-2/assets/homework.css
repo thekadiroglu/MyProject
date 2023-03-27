@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
 }
+
 .container {
   height: 672px;
   background: #ffc9ba;
@@ -64,6 +66,7 @@
   display: flex;
   margin-top: 64px;
 }
+
 .large {
   background-color: #e6f0ff;
   margin-left: 265px;
@@ -71,6 +74,7 @@
   margin-right: 24px;
   height: 650px;
   font-family: Montserrat;
+  border-radius: 6px;
 }
 .large img {
   height: 534px;
@@ -78,6 +82,7 @@
 .small {
   background: #fafafb;
   margin-top: 21px;
+  border-radius: 6px;
 }
 .small img {
   height: 534px;
@@ -115,6 +120,7 @@
 }
 .products img {
   margin-right: 80px;
+  border-radius: 6px;
 }
 .detail p {
   color: #807e7e;
@@ -166,6 +172,7 @@
 }
 .gorsel {
   background-color: #e6f0ff;
+  border-radius: 6px;
 }
 .baslik2 {
   width: 1110px;
@@ -180,6 +187,9 @@
   color: #eaeaea;
   margin-top: 16px;
   margin-bottom: 24px;
+}
+.baslik2 img {
+  border-radius: 6px;
 }
 .gallery4 .first {
   margin-right: 19px;
@@ -240,4 +250,98 @@
 .write4 h4 {
   margin-top: 16px;
   margin-left: 16px;
+}
+.baslik3 {
+  width: 1110px;
+  height: 508px;
+  margin-bottom: 16px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 128px;
+  font-weight: lighter;
+  position: relative;
+}
+.baslik3 hr {
+  color: #eaeaea;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+.baslik3 h1 {
+  width: 550px;
+}
+.baslik3 button {
+  float: right;
+  background: none;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+}
+.pictures {
+  display: flex;
+}
+.picture img {
+  width: 259px;
+  margin-right: 24px;
+  border-radius: 6px;
+}
+.picture h3 {
+  font-family: Open Sans;
+  color: #212121;
+}
+
+.picture p {
+  font-family: Open Sans;
+  margin-top: 16px;
+  color: #d8d8d8;
+}
+.footer {
+  height: 300px;
+  display: flex;
+}
+hr {
+  color: #d8d8d8;
+}
+.footer .explanation {
+  width: 496px;
+  height: 72px;
+  font-family: "Open Sans";
+  margin-left: 165px;
+  margin-bottom: 103px;
+  margin-top: 70px;
+}
+.footer .explanation p {
+  margin-top: 26px;
+}
+.links {
+  display: flex;
+  margin-left: 118px;
+  margin-top: 80px;
+}
+.links ul {
+  font-family: "Open Sans";
+  font-weight: bold;
+  margin-right: 84px;
+}
+.links ul li {
+  font-family: "Open Sans";
+  font-weight: lighter;
+  margin-top: 8px;
+  color: #807e7e;
+}
+.social-footer {
+  height: 72px;
+  display: flex;
+}
+.social {
+  margin-left: 172px;
+}
+.social img {
+  margin-right: 50px;
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+.copyright h5 {
+  font-family: Open Sanss;
+  margin-left: 900px;
+  margin-top: 28px;
+  color: #807e7e;
 }
