@@ -171,11 +171,15 @@ header {
 }
 .detail {
   margin-left: 25px;
+  max-width: 900px;
+  height: auto;
   text-align: center;
 }
 .detail p {
   margin-top: 25px;
   font-family: "Ubuntu", sans-serif;
+  max-width: 900px;
+  height: auto;
   font-size: large;
   transition: 0.5s;
 }

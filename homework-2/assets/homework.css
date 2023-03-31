@@ -11,18 +11,23 @@
 }
 .nav {
   display: flex;
+  align-items: center;
 }
 
 .nav .logo {
-  margin-top: 30px;
   margin-left: 165px;
 }
 .nav .icons {
   margin-left: 860px;
-  margin-top: 30px;
+  justify-content: center;
+  gap: 15px;
 }
-.icons .img {
-  margin-right: 85px;
+
+.link ul {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin: 0 auto;
 }
 .menu {
   margin-left: 165px;
